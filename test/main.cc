@@ -86,7 +86,6 @@ int main() {
 
 	std::thread ct{ &client_thread };
 
-	meme();
 	system("pause");
 
 	finish_test = true;
